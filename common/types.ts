@@ -9,6 +9,11 @@ export interface IUser {
   role: Role;
 }
 
+export interface IVotes {
+  candidate: string;
+  votes: number;
+}
+
 export interface JwtPayload {
   username: string;
   role: string;

@@ -14,6 +14,9 @@ export class User implements IUser {
 
   @Prop({ enum: Role, default: Role.USER })
   role: Role;
+
+  @Prop({ default: false })
+  hasVoted: boolean;
 }
 
 export const UserSchema = SchemaFactory.createForClass(User);

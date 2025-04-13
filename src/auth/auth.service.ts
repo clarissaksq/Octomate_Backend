@@ -8,7 +8,7 @@ import { Model } from 'mongoose';
 import * as bcrypt from 'bcryptjs';
 import { User, UserDocument } from '../users/schemas/users.schema';
 import { JwtService } from '@nestjs/jwt';
-import { validateRoles } from 'utils/validateRoles';
+import { validateRoles } from '../../utils/validateRoles';
 
 @Injectable()
 export class AuthService {
