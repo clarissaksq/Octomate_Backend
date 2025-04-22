@@ -13,7 +13,7 @@ import { User } from './schemas/users.schema';
 import { AuthGuard } from '@nestjs/passport';
 import { RolesGuard } from '../../common/roles.guard';
 import { Roles } from '../../common/roles.decorator';
-import { Role, JwtPayload } from '../../common/types';
+import { Role } from '../../common/types';
 import {
   UpdateUserRoleDto,
   UpdatePasswordDto,
